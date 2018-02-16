@@ -16,8 +16,7 @@ class CreateFotosTable extends Migration
         Schema::create('fotos', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nombre');
-            $table->int('tamano');
-            $table->string('formato');
+            $table->integer('tamano');
             $table->string('url');
             $table->timestamps();
         });
