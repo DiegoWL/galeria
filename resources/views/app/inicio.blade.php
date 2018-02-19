@@ -12,7 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-
+      <link href="components/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="/css/estilos.css" rel="stylesheet">
   </head>
@@ -20,44 +20,38 @@
   <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-danger text-white" role="navigation">
-          <a href="https://wwww.karateshotokan.cl" class="navbar-brand d-flex align-items-center text-center">
-            <img src="/img/logodojo.png" class="logo" alt="">
-          </a>
-          <div  class="text-white"  id="navbarNav">
-            <ul class="navbar-nav text-white">
-               <li class="nav-item">
-                 <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="https://wwww.karateshotokan.cl">Volver a Karateshotokan.cl</a>
-               </li>
-            </ul>
+        <nav class="navbar navbar-custom navbar-expand-lg" role="navigation">
+          <div class="container">
+            <div class="col-md-4">
+              <a href="https://wwww.karateshotokan.cl" class="navbar-brand d-flex align-items-center">
+                <img src="/img/logodojo.png" class="logo" alt="">
+              </a>
+            </div>
+            {{-- <div class="col-md-4">
+              <p class="titulo text-center"><span><i class="fas fa-images"></i></span> Galeria de Fotos</p>
+            </div> --}}
+            <div class="col-md-4">
+              <p class="text-right" >
+                
+                <a href="https://wwww.karateshotokan.cl" style="color:white !important" >Pagina principal</a>
+              </p>
+            </div>
           </div>
         </nav>
-
-
     </header>
-     <section class="jumbotron text-center">
-          <div class="container">
-            <h1 class="jumbotron-heading">Galeria de Album</h1>
-            <p class="lead text-muted">En esta sección podrá ver todas las fotos correspondiente a torneos , seminarios y otras actividades.</p>
-            <p>
-              <a href="https://getbootstrap.com/docs/4.0/examples/album/#" class="btn btn-primary my-2">Main call to action</a>
-              <a href="https://getbootstrap.com/docs/4.0/examples/album/#" class="btn btn-secondary my-2">Secondary action</a>
-            </p>
-          </div>
-      </section>
-      <main role="main">
+
+
+      <div class="container">
+        <div class="container">
+          <h1 class="page-header"><span><i class="fas fa-images"></i></span> Galeria de fotos</h1>
+          <hr>
+          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
           @yield('content')
       </main>
     <footer class="text-muted">
       <div class="container">
-        <p class="float-right">
-          <a href="https://getbootstrap.com/docs/4.0/examples/album/#">Back to top</a>
-        </p>
-        <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="https://getbootstrap.com/docs/4.0/">Visit the homepage</a> or read our <a href="https://getbootstrap.com/docs/4.0/getting-started/">getting started guide</a>.</p>
+        <p class="text-center">Desarrollado por <a href=""> Diego Wilson</a> </p>
       </div>
     </footer>
 
@@ -68,7 +62,7 @@
     <script>window.jQuery || document.write('<script src="/components/jquery/dist/jquery.slim.min.js"><\/script>')</script>
     <script src="components/popper.js/dist/popper.min.js"></script>
     <script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="./Album example for Bootstrap_files/holder.min.js.descarga"></script>
+    <script src="components/font-awesome/svg-with-js/js/fontawesome-all.min.js"></script>
 
 
 <svg xmlns="http://www.w3.org/2000/svg" width="348" height="225" viewBox="0 0 348 225" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="17" style="font-weight:bold;font-size:17pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text></svg>
